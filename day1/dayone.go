@@ -10,7 +10,7 @@ import (
 
 func main() {
 	// read the whole content of file and pass it to file variable, in case of error pass it to err variable
-	file, err := os.Open("E:\\JavidProjects\\adventofcode\\dayOne\\input.txt")
+	file, err := os.Open("E:\\JavidProjects\\adventofcode\\day1\\input.txt")
 	if err != nil {
 		fmt.Printf("Could not open the file due to this %s error \n", err)
 		return
@@ -41,7 +41,7 @@ func main() {
 	}
 	//====================================== part two ===============================================
 	// read the whole content of file and pass it to file variable, in case of error pass it to err variable
-	file, err = os.Open("E:\\JavidProjects\\adventofcode\\dayOne\\input.txt")
+	file, err = os.Open("E:\\JavidProjects\\adventofcode\\day1\\input.txt")
 	if err != nil {
 		fmt.Printf("Could not open the file due to this %s error \n", err)
 		return
